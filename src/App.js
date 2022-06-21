@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Switch, Route, NavLink, useRouteMatch } from "
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import { Header } from './features/Header/Header';
 
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main>
         {/* <Home /> */}
       </main>

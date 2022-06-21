@@ -1,0 +1,27 @@
+:root {
+    --bg-color: #FF5700;
+}
+
+header {
+    border-bottom: 2px solid black;
+    text-align: center;
+    /* background-color: var(--bg-color); */
+    margin: 0;
+    padding: 0;
+}
+
+header input {
+    float: right;
+    position: relative;
+    bottom: 3rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    min-width: 8rem;
+    max-width: 15rem;
+    max-height: 4rem;
+}
+
+header h3 {
+    float: left;
+    margin-left: 2rem;
+}
